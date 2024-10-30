@@ -25,3 +25,19 @@ proxies:
       headers:
         Host: sg-4.test3.net
     udp: true
+  - name: devin
+    type: vmess
+    server: quiz.vidio.com
+    port: 443
+    uuid: ponselZBYDu4J4y8GC89B
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: sg5.siluman.cloud
+    network: ws
+    ws-opts:
+    path: /vmess
+    headers:
+      Host: sg5.siluman.cloud
