@@ -1,41 +1,17 @@
 proxies:
-  - name: FAST
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
-  - name: AKUN2
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
-  - name: devin
-    type: vmess
-    server: 104.17.2.81
-    port: 443
-    uuid: ponselZBYDu4J4y8GC89B
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: sg5.siluman.cloud
+- name: Trojan-devin-GO/WS
+  server: sg3.siluman.cloud
+  port: 443
+  type: trojan
+  password: ponselcZKy113Lx4db4jN
+  network: ws
+  sni: sg3.siluman.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: sg3.siluman.cloud
     network: ws
     ws-opts:
     path: /vmess
