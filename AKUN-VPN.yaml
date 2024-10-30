@@ -27,7 +27,7 @@ proxies:
     udp: true
   - name: devin
     type: vmess
-    server: quiz.vidio.com
+    server: 104.17.2.81
     port: 443
     uuid: ponselZBYDu4J4y8GC89B
     alterId: 0
