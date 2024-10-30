@@ -12,8 +12,3 @@ proxies:
     path: /trojan-ws
     headers:
         Host: sg3.siluman.cloud
-    network: ws
-    ws-opts:
-    path: /vmess
-    headers:
-      Host: sg5.siluman.cloud
